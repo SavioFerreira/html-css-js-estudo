@@ -5,21 +5,19 @@ function PegarNome(nome) {
     console.log(nome);
     return `O nome digitado foi ${nome}`;
 }
-//PegarNome("savio");
 
- ola = () =>  {
-    console.log("io");
-    return `Olá mundo`;
+ PegarNome_arrow = (nomeEntrada) =>  {
+    let nome = nomeEntrada;
+    console.log(nome + " é o mesmo: " + nomeEntrada);
+    return `O nome digitado foi ${this.nome}`;
 }
 
-function Pessoa() {
-    this.idade = 0;
-    setInterval(function (){
-        this.idade++
-        console.log(this.idade)
-    }.bind(this),1000);
-}
+PegarNome_arrow_returnImplicito = (palavra) => console.log(`A palavra: \*${palavra}\* foi escolhida`);
 
-new Pessoa
+PegarNome("savio");
+PegarNome_arrow("Pamonha frita");
+PegarNome_arrow_returnImplicito("Paçoca");
+
+
 
 
