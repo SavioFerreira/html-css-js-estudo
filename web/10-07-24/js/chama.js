@@ -1,8 +1,8 @@
 
-let pressed = document.getElementById("botao")
+let pressed = document.getElementById("botao");
 
-pressed.addEventListener('click', Chama);
+pressed.addEventListener('click', chama);
 
-function Chama() {
-    window.alert("Calma ae paizão!!!!")
+function chama() {
+    alert("Calma ae paizão!!")
 }

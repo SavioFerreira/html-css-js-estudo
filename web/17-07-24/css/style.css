@@ -1,0 +1,71 @@
+
+* {
+  margin: 0;
+  box-sizing: content-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 80%;
+}
+
+.home {
+    background-color: rgba(10, 65, 28, 0.767);
+    border-style: solid;
+    border-width: 0.09em;
+    border-color: rgb(51, 255, 0);
+    border-radius: 0.6em;
+    margin-top: 5px;
+    height: 14vh;
+    width: 18vw;
+    position: fixed;
+    right: 40%;
+    text-align: center;
+}
+
+.home h1 {
+  text-align: center;
+  color: rgb(51, 255, 0);
+  margin-top: 10px;
+  margin-bottom: 15px;
+  }
+
+.options *:hover {
+    background-color: rgba(8, 163, 34, 0.5);
+}
+
+
+.options a {
+    font-size: 1.3em;
+    border: solid 1px;
+    border-radius: 0.3em;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(51, 255, 0);    
+}
+
+
+.texto1 {
+    background-color: cyan;
+    height: 100vh;
+}
+
+.texto2 {
+    background-color: rgb(6, 57, 224);
+    height: 100vh;
+}
+
+.texto3 {
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+.footer {
+    height: 70vh;
+    background-image: url("https://i.pinimg.com/originals/02/0f/99/020f99955800d1a5a5e018ab3babcf59.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
