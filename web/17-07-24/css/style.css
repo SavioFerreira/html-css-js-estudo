@@ -35,7 +35,6 @@ html {
     background-color: rgba(8, 163, 34, 0.5);
 }
 
-
 .options a {
     font-size: 1.3em;
     border: solid 1px;
@@ -46,7 +45,6 @@ html {
     text-decoration: none;
     color: rgb(51, 255, 0);    
 }
-
 
 .texto1 {
     background-color: cyan;
