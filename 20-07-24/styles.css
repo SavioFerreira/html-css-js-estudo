@@ -1,0 +1,104 @@
+* {
+    background-color: rgb(0, 81, 128);
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.header .headerMessage {
+  margin: 10px;
+  height: 10rem;
+  background-color: rgba(31, 180, 111, 0.774);
+  color: white
+}
+
+.headerMessage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  background-color: rgba(31, 180, 111, 0.774);
+  padding: 5px;
+  margin: 10px;
+  width: 40rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  color: white
+}
+
+.main {
+  background-color: rgba(31, 180, 111, 0.774);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 10px;
+}
+
+.mainImage1:hover, .mainImage2:hover, .mainImage3:hover {
+  opacity: 0.7;
+}
+
+
+.mainImage1, .mainImage2, .mainImage3 {
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ height: 25rem;
+ background-image: url("https://picsum.photos/1000/300");
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-bottom: 1rem;
+ border-radius: 10px;
+}
+
+.main-image3 {
+  margin-bottom: 0rem;
+}
+
+.right *{
+  display: flex;
+  background-color: rgba(31, 180, 111, 0.774);
+  padding: 5px;
+  margin: 10px;
+  width: 40rem;
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  color: white
+}
+
+.footer{
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 20em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email{
+  color:purple;
+  font-size: 20px;
+}
+
+.copyright {
+  color:white;
+  font-size: 20px;
+}
+
+.email:hover, .copyright:hover {
+  font-size: 30px;
+  text-shadow: 1px 1px rgb(30, 255, 0);
+}
